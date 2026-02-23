@@ -1,0 +1,12 @@
+name: posit-demo
+title: posit-demo
+username: ld5l1k-chunlin0jiang
+account: ld5l1k-chunlin0jiang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16731230
+bundleId: 11612053
+url: https://ld5l1k-chunlin0jiang.shinyapps.io/posit-demo/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
