@@ -1,0 +1,13 @@
+id,topic,module,difficulty,summary,tags
+1,API Query Setup,01_query_api,Beginner,"Configure endpoint, params, and parse JSON responses for downstream tasks.",api;json;query
+2,System Prompt Design,06_agents,Beginner,"Define role, output format, and constraints to improve consistency.",prompt;role;format
+3,Two-Agent Workflow,06_agents,Intermediate,"Chain Agent 1 output into Agent 2 to separate processing and writing.",agents;workflow;chain
+4,Rules in YAML,06_agents,Intermediate,"Use external rules file to standardize style and structure across outputs.",yaml;rules;governance
+5,RAG Text Search,07_rag,Intermediate,"Retrieve relevant lines from text and ground model responses.",rag;text;retrieval
+6,RAG CSV Search,07_rag,Intermediate,"Filter CSV records by query and send matched JSON to the model.",rag;csv;json
+7,RAG SQLite Search,07_rag,Advanced,"Query a documents table with LIKE and summarize matched rows.",rag;sqlite;sql
+8,Function Calling Basics,08_function_calling,Intermediate,"Define tools with parameter schemas and execute tool calls safely.",tools;function-calling;schema
+9,Agent Wrapper with Tools,08_function_calling,Intermediate,"Use agent_run wrapper to support standard chat and tool-enabled chat.",wrapper;tools;agent_run
+10,MCP Server Basics,08_function_calling,Advanced,"Expose tools over HTTP via MCP and call with JSON-RPC methods.",mcp;http;json-rpc
+11,Deployment with GitHub Actions,04_deployment,Intermediate,"Automate build and deployment with workflow files and secrets.",deploy;github-actions;ci-cd
+12,Output Packaging,08_function_calling,Beginner,"Capture outputs and screenshots and package final submission artifacts.",documentation;screenshots;submission

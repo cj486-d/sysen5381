@@ -1,0 +1,136 @@
+/opt/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:22: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/opt/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+=== HOMEWORK 2 RUN ===
+Timestamp: 2026-03-29T14:18:41
+
+=== Agent 1 Output (Tool + RAG Retrieval) ===
+{
+  "goal": "Build a complete AI agent system for Homework 2 with strong RAG and tool integration.",
+  "query": "RAG tools MCP",
+  "retrieved_notes": [
+    {
+      "id": 5,
+      "topic": "RAG Text Search",
+      "module": "07_rag",
+      "difficulty": "Intermediate",
+      "summary": "Retrieve relevant lines from text and ground model responses.",
+      "tags": "rag;text;retrieval"
+    },
+    {
+      "id": 6,
+      "topic": "RAG CSV Search",
+      "module": "07_rag",
+      "difficulty": "Intermediate",
+      "summary": "Filter CSV records by query and send matched JSON to the model.",
+      "tags": "rag;csv;json"
+    },
+    {
+      "id": 7,
+      "topic": "RAG SQLite Search",
+      "module": "07_rag",
+      "difficulty": "Advanced",
+      "summary": "Query a documents table with LIKE and summarize matched rows.",
+      "tags": "rag;sqlite;sql"
+    },
+    {
+      "id": 8,
+      "topic": "Function Calling Basics",
+      "module": "08_function_calling",
+      "difficulty": "Intermediate",
+      "summary": "Define tools with parameter schemas and execute tool calls safely.",
+      "tags": "tools;function-calling;schema"
+    },
+    {
+      "id": 9,
+      "topic": "Agent Wrapper with Tools",
+      "module": "08_function_calling",
+      "difficulty": "Intermediate",
+      "summary": "Use agent_run wrapper to support standard chat and tool-enabled chat.",
+      "tags": "wrapper;tools;agent_run"
+    },
+    {
+      "id": 10,
+      "topic": "MCP Server Basics",
+      "module": "08_function_calling",
+      "difficulty": "Advanced",
+      "summary": "Expose tools over HTTP via MCP and call with JSON-RPC methods.",
+      "tags": "mcp;http;json-rpc"
+    }
+  ],
+  "difficulty_priority": [
+    {
+      "difficulty": "Intermediate",
+      "count": 7
+    },
+    {
+      "difficulty": "Beginner",
+      "count": 3
+    },
+    {
+      "difficulty": "Advanced",
+      "count": 2
+    }
+  ]
+}
+
+=== Agent 2 Output (Integrated Analysis) ===
+Summary:
+The task is to build a complete AI agent system for Homework 2 with strong RAG (Responsive Adaptive Graph) and tool integration. There are five key topics and modules covered in this assignment, ranging from basic retrieval techniques using Text Search to advanced querying methods such as SQLite search and filtering records by query through RPC (Remote Procedure Call).
+
+Key Evidence:
+1. Retrieve relevant lines from text and ground model responses - "RAG Text Search"
+2. Filter CSV records by query and send matched JSON to the model - "RAG CSV Search"
+3. Query a documents table with LIKE and summarize matched rows - "RAG SQLite Search"
+4. Define tools with parameter schemas and execute tool calls safely - "Function Calling Basics"
+5. Use agent_run wrapper to support standard chat and tool-enabled chat - "Agent Wrapper with Tools"
+6. Expose tools over HTTP via MCP and call with JSON-RPC methods - "MCP Server Basics"
+
+Recommended Focus Areas:
+
+1. **RAG Text Search**: This is a foundational module that will provide strong RAG capabilities for your agent system.
+
+2. **Function Calling Basics**: Understanding how to define tools with parameter schemas and execute tool calls safely will be crucial for integrating the various modules effectively.
+
+3. **Agent Wrapper with Tools**: The agent_run wrapper will allow you to support standard chat and tool-enabled chat functionalities within your agent system, ensuring comprehensive integration of all tools provided.
+
+4. **MCP Server Basics**: Understanding how to expose tools over HTTP via MCP will enable the ability to use these tools through both standard chat interfaces and specialized ones like MCP.
+
+Remember that each module requires different levels of difficulty based on its complexity and scope, so it's important to allocate your time appropriately across all focus areas for maximum effectiveness.
+
+=== Agent 3 Output (Execution Plan) ===
+Daily Task Bullet:
+1. Focused on RAG Text Search - Spend 2 hours learning and implementing basic RAG text search techniques to provide reliable retrieval capabilities within the agent system.
+
+Measurable Checkpoint: Implement a fully functional module capable of performing basic RAG text search operations including filtering relevant lines from text based on given keywords or phrases, generating ground model responses, and returning those results in JSON format (See Module 1). 
+
+Day 2
+Daily Task Bullet:
+Focused on RPC Searching with SQLite - Spend 2 hours learning about querying records through RPC and integrating it into your module.
+
+Measurable Checkpoint: Implement the ability to execute a LIKE-based query in an SQLite database, returning relevant CSV rows based on given criteria (See Module 3).
+
+Day 3
+Daily Task Bullet:
+Focused on Tool Integration - Spend 2 hours learning about defining tools with parameter schemas and executing tool calls safely.
+
+Measurable Checkpoint: Implement a basic tool that requires users to input parameters before running (e.g., calculating the area of a circle) and ensure safe execution by returning an error message if any parameters are missing or invalid (See Module 4).
+
+Day 4
+Daily Task Bullet:
+Focused on Agent Wrapper Basics - Spend 2 hours learning about using agent_run wrapper to support standard chat and tool-enabled chat functionalities.
+
+Measurable Checkpoint: Implement the basic agent_run wrapper functionality so it can handle both standard chat and tool-enabled chat scenarios (See Module 5).
+
+Day 5
+Daily Task Bullet:
+Focused on Exposing Tools via MCP - Spend 2 hours learning about exposing tools over HTTP via MCP.
+
+Measurable Checkpoint: Implement the ability for users to access your agent system through both standard interfaces (e.g., a simple web interface) and specialized ones like MCP, returning JSON-RPC method calls with appropriate responses (See Module 6).
+
+Day 6
+Daily Task Bullet:
+Focused on Integrating all modules - Spend 2 hours combining all the learned modules into an integrated agent system that can provide comprehensive capabilities to users.
+
+Measurable Checkpoint: Implement a fully functional AI agent capable of performing various operations such as text search, filtering records based on queries, executing tool calls safely and exposing these functionalities via standard chat interfaces (See Overall Task).
