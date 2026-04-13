@@ -1,0 +1,32 @@
+/opt/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:22: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/opt/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+📝 Report for Quality Control:
+---
+In 2015, Light Trucks contributed 51.8% of PM10 emissions in White County, IL. Cars/Bikes accounted for 36.1% of total PM10 emissions in the area that year. Combo Trucks, Heavy Trucks, and Buses combined were responsible for only 12.1% of PM10 emissions. To lower PM10 emissions in White County, IL, focus should be on reducing emissions from Light Trucks and Cars/Bikes, as they collectively contribute to 87.9% of total emissions. Implementing stricter emission standards for these vehicles or promoting the use of electric vehicles could help significantly reduce pollution levels in the region.
+---
+
+🤖 Querying AI for quality control...
+
+📥 AI Response (raw):
+{
+  "accurate": true,
+  "accuracy": 4,
+  "formality": 2,
+  "faithfulness": 3,
+  "clarity": 4,
+  "succinctness": 1,
+  "relevance": 5,
+  "details": "The paragraph accurately reports the data from the source and provides a clear explanation of the findings."
+}
+
+✅ Quality Control Results:
+   accurate  accuracy  formality  faithfulness  clarity  succinctness  relevance                                            details
+0      True         4          2             3        4             1          5  The paragraph accurately reports the data from...
+
+📊 Overall Quality Score (average of Likert scales): 3.17 / 5.0
+📊 Accuracy Check: ✅ PASS
+
+✅ AI quality control complete!
+💡 Compare these results with manual quality control (01_manual_quality_control.py) to see how AI performs.

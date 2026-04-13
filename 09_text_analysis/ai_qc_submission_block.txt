@@ -1,0 +1,6 @@
+✅ Quality Control Results:
+   accurate  accuracy  formality  faithfulness  clarity  succinctness  relevance                                            details
+0      True         4          2             3        4             1          5  The paragraph accurately reports the data from...
+
+📊 Overall Quality Score (average of Likert scales): 3.17 / 5.0
+📊 Accuracy Check: ✅ PASS
