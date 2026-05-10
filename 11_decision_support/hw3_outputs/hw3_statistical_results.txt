@@ -1,0 +1,25 @@
+Homework 3 Statistical Results
+====================================
+
+Sample sizes by prompt:
+{'A': 30, 'B': 30, 'C': 30}
+
+Custom score summary by prompt:
+prompt_id  n  custom_mean  custom_sd  evidence_mean  usability_mean  comm_mean  risk_rate
+        A 30     4.228333   0.242745       4.500000        3.533333   4.833333   0.000000
+        B 30     3.558333   0.375303       3.833333        4.000000   2.833333   0.333333
+        C 30     3.241667   0.375303       3.833333        3.666667   1.833333   0.333333
+
+Welch t-test (Prompt A vs Prompt B):
+t = 8.2104, p = 8.29085e-11
+
+Welch t-test (Prompt A vs Prompt C):
+t = 12.0909, p = 2.07613e-16
+
+Welch t-test (Prompt B vs Prompt C):
+t = 3.2679, p = 0.00182363
+
+One-way ANOVA (A, B, C):
+F = 67.0532, p = 2.39298e-18
+
+Interpretation: Prompt choice significantly affects custom validation score.
